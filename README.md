@@ -13,7 +13,6 @@ Maintenir une relation humaine forte et accessible.
 Technologies utilisées
 
 Frontend : HTML, CSS, ou React, ...
-Backend : 
 IA / Chatbot : API conversationnelle 
 
 Prochaine étape
