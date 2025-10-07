@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "ChezMoi",
+    "slug": "MyVirtualAgency",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "updates": { "fallbackToCacheTimeout": 0 },
+    "platforms": ["ios", "android", "web"],
+    "android": {
+      "package": "com.myvirtualagency.app",
+      "versionCode": 1,
+      "compileSdkVersion": 34,
+      "targetSdkVersion": 34,
+      "minSdkVersion": 24
+    },
+    
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "minSdkVersion": 24,
+            "kotlinVersion": "1.9.22"
+          }
+        }
+      ] 
+    ]
+  },
+  "react-native-google-mobile-ads":
+        {
+          "android_app_id": "ca-app-pub-3940256099942544~3347511713"  
+        }
+}
